@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+	color:darkblue;
+}
+body{
+    background-color: lightskyblue;
+    font-family: Verdana;
+    color: darkslategray;
+}
+h2{
+	color:red;
+}
+a{
+	color:lightskyblue;
+	font-weight:bold;
+	text-align: center;
+}
+
+td{
+    text-align: center;
+    color: #F8F8F8;
+}
+table{
+	background-color:darkblue;
+	border-color:red;
+	border-width: 5px;
+	
+}
+#navigation{
+	color:red;
+}
+img{
+	width:200px;
+	height:260px;
+}
+.loaf{
+	width:260;
+	height:300;
+	
+}
+#broken{
+	color:navy;
+}
+#brokan{
+	color:navy;
+}
+.button{
+	height:25px;
+	width:130px;
+	color:FF0000;
+	background-color:darkblue;
+	text-align: center;
+	border: ridge black 5px;
+	float:left;
+	font-size:14px;
+	margin:5px;
+	border-radius: 5px;
+}
+.buttonContainer:hover {
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+    transform: translateY(-2px);
+    transition: all 0.2s ease-out;
+}
+#spin:hover {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.textLink{
+	color:red;
+}
+
+hr{
+	background-color:black;
+	height:8px;
+}
+h3{
+	color:darkgreen
+}
+#email{
+	color:darkslategray;
+	text-align:left;
+}
+a:hover {
+    color: #FF0004;
+    text-decoration: underline;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #87CEFA;
+}
+a:active {
+    text-decoration: none;
+}
+.pageLink{
+	color:darkblue;
+	font-weight:bold;
+}
+#example1{
+	color:darkblue;
+}
+#example2{
+	color:darkblue;
+}
+.orderbutton{
+	height:35px;
+	width:300px;
+	color:black;
+	font-weight:bold;
+	background-color:steelblue;
+	text-align: center;
+	border: ridge black 5px;
+	float:left;
+	font-size:14px;
+	margin:5px;
+	border-radius: 5px;
+	align:center;
+}
+#car{
+	width:300px;
+}
+#dough{
+	width:280px;
+}
+#flour{
+	width:350px;
+}
+#cookie{
+	width:270px;
+}
+#bowl{
+	width:260px;
+}
+#farmer{
+	color:darkblue;
+}
+#chicken{
+	width:360px
+}
